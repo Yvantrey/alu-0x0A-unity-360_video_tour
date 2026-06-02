@@ -55,19 +55,13 @@ public class SwitchRooms : MonoBehaviour
     
     private IEnumerator SwitchWithFade(GameObject targetSphere)
     {
-        
         fadeAnimator.SetTrigger("FadeOut");
-
-        
-        yield return new WaitForSeconds(1f);  
-
+        yield return new WaitForSeconds(0.5f);  
         
         SwitchSphere(targetSphere);
-
+        yield return new WaitForSeconds(0.5f);  
         
         fadeAnimator.SetTrigger("FadeIn");
-
-        
         yield return new WaitForSeconds(1f);
     }
 

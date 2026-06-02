@@ -10,12 +10,19 @@ public class CursorLook : MonoBehaviour
     public Transform playerCamera;         
     public float rayDistance = 100f;       
 
-    private Button currentButton;          
+    private Button currentButton;
+    private Camera cachedCamera;
 
     void Start()
     {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+        
+        if (playerCamera != null)
+            cachedCamera = playerCamera.GetComponent<Camera>();
+        
+        if (cachedCamera == null)
+            Debug.LogError("Camera not found on playerCamera. Ensure CameraRig has a Camera component attached.");
     }
 
     void Update()
@@ -38,11 +45,12 @@ public class CursorLook : MonoBehaviour
    
     public void HandleMouseInteraction()
     {
-        
-        Ray ray = playerCamera.GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
+        if (cachedCamera == null)
+            return;
+            
+        Ray ray = cachedCamera.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
-        
         if (Physics.Raycast(ray, out hit, rayDistance))
         {
             Button button = hit.collider.GetComponent<Button>();
