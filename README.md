@@ -18,7 +18,7 @@ An interactive 360° virtual campus tour built with Unity. Users can navigate be
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/alu-0x0A-unity-360_video_tour.git
+git clone https://github.com/Yvantrey/alu-0x0A-unity-360_video_tour.git
 ```
 
 ### 2. Open in Unity
