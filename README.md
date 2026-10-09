@@ -54,7 +54,7 @@ The Food Court sphere must be manually linked to the TourManager:
 ### In the Editor
 
 1. Open `Assets/Scenes/MainMenuScene.unity`
-2. Press the **Play** button (▶) at the top of the Unity Editor
+2. Press the **Play** button at the top of the Unity Editor
 3. Use the Main Menu to navigate to the Custom Campus Tour or Intranet Tour
 
 ### Build & Run (Standalone)
