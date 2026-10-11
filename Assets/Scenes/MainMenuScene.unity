@@ -379,7 +379,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
+  m_TextStyleHashCode: 2194
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -747,7 +747,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 29.200012, y: -51}
+  m_AnchoredPosition: {x: 39, y: -217}
   m_SizeDelta: {x: 292.6435, y: 98.5689}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1027128769
@@ -984,7 +984,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 379, y: -47}
+  m_AnchoredPosition: {x: 42, y: -381}
   m_SizeDelta: {x: 266.5284, y: 89.0026}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1092812706
@@ -1311,7 +1311,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -329, y: -49.5}
+  m_AnchoredPosition: {x: 34, y: -49.5}
   m_SizeDelta: {x: 300.0223, y: 99}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1649093324
